@@ -1,0 +1,61 @@
+
+<body style=" background: rgb(255,255,255); background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);">
+<style>
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: 3px solid linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%); 
+}
+.myButton {
+	box-shadow: 0px 6px 21px -3px #276873;
+	background:linear-gradient(to bottom, #00bbff 5%, #0e41c2 100%);
+	background-color:#00bbff;
+	border-radius:24px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	padding:12px 29px;
+	text-decoration:none;
+	text-shadow:4px 6px 3px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0e41c2 5%, #00bbff 100%);
+	background-color:#0e41c2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+ .css-input { padding:12px; font-size:12px; border-width:4px; border-radius:24px; border-style:groove; background-color:#e5f3ff; border-color:#bab8ff; box-shadow: 0px 1px 5px 0px rgba(0,255,242,.86);  } 
+		 .css-input:focus { outline:none; } 
+#demotext {
+text-shadow: 0px 0px 0 #899CD5, 1px 1px 0 #8194CD, 2px 2px 0 #788BC4, 3px 3px 0 #6F82BB, 4px 4px 0 #677AB3, 5px 5px 0 #5E71AA, 6px 6px 0 #5568A1, 7px 7px 0 #4C5F98, 8px 8px 0 #445790, 9px 9px 0 #3B4E87, 10px 10px 0 #32457E, 11px 11px 0 #2A3D76, 12px 12px 0 #21346D, 13px 13px 0 #182B64, 14px 14px 0 #0F225B, 15px 15px 0 #071A53, 16px 16px 0 #02114A, 17px 17px 0 #0B0841, 18px 18px 0 #130039, 19px 19px 0 #1C0930, 20px 20px 0 #251227, 21px 21px 20px rgba(0,0,0,1), 21px 21px 1px rgba(0,0,0,0.5), 0px 0px 20px rgba(0,0,0,.2), 2px 2px 2px rgba(206,89,55,0);
+color: #92a5de;
+font-size:50px;
+}
+#ademotext {
+color: #FFFFFF;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+color: #FFFFFF;
+font-size:25px;
+background: rgb(255,255,255); background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+</style>
+<div class="center">
+<form class="form-inline mt-3 mb-3" method="post" action="/search/?i=1">
+  <div class="form-group mr-md-3 mb-2">
+  <center><div id="demotext">Phone Number Search</div></center>
+  <br></br>
+  <center><div id="ademotext">Created By ./K4GUR4</div></center>
+  <br></br>  <br></br>
+    <center><input type="tel" name="text" id="number" value="" class="css-input" placeholder="Phone number"><button type="submit" id="submit" name="submit" class="myButton">Search</button></center>
+  </div>
+</form>
+</div>
+</body>
+
